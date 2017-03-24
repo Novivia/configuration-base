@@ -32,7 +32,6 @@
   },
   "devDependencies": {
     // Novivia dependencies.
-    "@novivia/babel": "^1.0.0",
     "@novivia/build-module": "^0.5.2",
     "@novivia/linter": "^1.10.1",
     "@novivia/open-sourcer": "^0.1.2",
