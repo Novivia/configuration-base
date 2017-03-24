@@ -1,7 +1,7 @@
 {
   "name": "@novivia/configuration-base",
   "role": "configuration-base",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "engines": {
     "node": ">=4",
     "npm": ">=3",
