@@ -4,40 +4,32 @@
   "version": "0.1.1",
   "engines": {
     "node": ">=4",
-    "npm": ">=3",
+    "npm": ">=3"
   },
   "license": "SEE LICENSE IN LICENSE.md",
-  "publishConfig": {
-    "registry": "https://npm.novivia.com",
-  },
   "description": "Novivia configuration base utility.",
   "authors": [
-    "Mathieu M-Gosselin <mathieumg@novivia.com>",
+    "Mathieu M-Gosselin <mathieumg@novivia.com>"
   ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git.novivia.com/nov/modules.configuration-base"
+    "url": "git@github.com:Novivia/configuration-base.git"
   },
   "main": "index.js",
   "novivia-builder": {
-    // Force compilation with frontend compatibility.
-    "compileTargets": {},
+    "compileTargets": {}
   },
   "scripts": {
     "build": "novivia-builder build",
     "lint": "novivia-linter lint .",
-    "open-source": "open-source",
     "pub": "novivia-builder publish",
-    "release": "novivia-builder release",
+    "release": "novivia-builder release"
   },
   "devDependencies": {
-    // Novivia dependencies.
     "@novivia/build-module": "^0.5.3",
-    "@novivia/linter": "^1.10.1",
-    "@novivia/open-sourcer": "^0.1.3",
+    "@novivia/linter": "^1.10.1"
   },
   "dependencies": {
-    // npm dependencies.
-    "nconf": "^0.8.4",
-  },
+    "nconf": "^0.8.4"
+  }
 }
